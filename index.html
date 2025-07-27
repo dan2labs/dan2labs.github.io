@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dandan labs</title>
+  <meta name="description" content="creative tech & ai projects by dandan labs">
+  <link rel="icon" href="/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f1f1f1;
+      color: #000;
+    }
+    .container {
+      max-width: 640px;
+      margin: 1rem auto;
+      padding: 0 1rem;
+    }
+    nav {
+      display: flex;
+      gap: 0.25rem;
+      background: #e5e5e5;
+      padding: 0.5rem;
+    }
+    .nav-link {
+      text-decoration: none;
+      color: #0000ee;
+    }
+    .nav-link::before { content: "["; }
+    .nav-link::after { content: "]"; }
+    h1 { font-weight: 900; }
+    h2 { font-weight: 600; margin-top: 1rem; }
+    p { margin: 0.5rem 0; }
+    ul { padding-left: 1rem; list-style: disc; }
+    a:hover { background: #fef9c3; }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <a href="/" class="nav-link">home</a>
+      <a href="/projects" class="nav-link">projects</a>
+    </nav>
+    <div>
+      <h1>dandan labs</h1>
+      <p>adhd-fueled hobby lab in toronto</p>
+    </div>
+  </header>
+  <main class="container">
+    <h2>purpose</h2>
+    <hr />
+    <p>build fun stuff. share openly. no bullshit.</p>
+
+    <h2>who am i?</h2>
+    <hr />
+    <p>sol, data scientist + builder</p>
+    <p>working on ai agents, robotics, and creative software</p>
+    <p>find me <a href="https://x.com/dandanlabs" class="nav-link">@dandanlabs</a></p>
+
+    <h2>ongoing projects</h2>
+    <hr />
+    <ul>
+      <li><a href="https://github.com/dandanlabs/term-ai">term-ai</a> — natural language to terminal</li>
+      <li><a href="https://github.com/dandanlabs/plotter">plotter</a> — turn 3d printer into pen plotter</li>
+    </ul>
+  </main>
+  <footer class="container">
+    <nav>
+      <a href="https://github.com/dandanlabs" class="nav-link">github</a>
+      <a href="https://x.com/dandanlabs" class="nav-link">twitter</a>
+    </nav>
+  </footer>
+</body>
+</html>
